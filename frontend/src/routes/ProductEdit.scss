@@ -1,0 +1,45 @@
+.app__product-edit{
+    margin-top: 3rem;
+}
+
+.app__product-edit-form{
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%;
+    margin: auto;
+
+    @media screen and (max-width: 1000px) {
+        width: 100%;
+    }
+
+    .app__product-edit-form-image{
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+        }
+    
+        input{
+            width: 48%;
+
+            @media screen and (max-width: 1000px) {
+                width: 100%;
+            }
+        }
+    }
+
+    input{
+        margin-top: 2rem;
+        padding: 1rem;
+        
+        border: 1px solid rgb(46, 46, 46);
+        background-color: white !important;
+        color: black;
+    }
+}
+
+.app__product-edit-form-button{
+    margin-top: 2rem;
+}

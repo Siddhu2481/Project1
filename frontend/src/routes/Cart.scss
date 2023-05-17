@@ -1,0 +1,58 @@
+.app__cart{
+    margin-top: 3rem;
+
+    h1{
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+.app__cart-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 1rem;
+    margin-top: 3rem;
+}
+
+.app__cart-item{
+    img{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .app__cart-item-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 1rem;
+        margin-top: -5px;
+        background: #FAFAFF;
+    }
+}
+
+.app__cart-bill{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+
+        *{
+            margin: .5rem;
+        }
+    }
+    
+
+    .app__cart-bill-value{
+        display: flex;
+        align-items: center;
+
+        p{
+            margin-left: 1rem;
+        }
+    }
+}

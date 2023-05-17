@@ -1,0 +1,13 @@
+.app__payment{
+    text-align: center;
+
+    form{
+        .app__payment-paypal{
+            margin: 1rem 0;
+            
+            label{
+                margin-left: 1rem;
+            }
+        }
+    }
+}

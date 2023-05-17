@@ -1,0 +1,41 @@
+.app__profile{
+    display: flex;
+    justify-content: space-between;
+
+
+    margin-top: 3rem;
+}
+
+.app__profile-form{
+    width: 40%;
+
+    form{
+        display: flex;
+        flex-direction: column;
+
+        input{
+            margin-top: 2rem;
+            padding: 1rem;
+            
+            border: 1px solid rgb(46, 46, 46);
+            background-color: white !important;
+            color: black;
+        }
+    }
+}
+
+.app__form-buttons{
+    margin-top: 2rem;
+}
+
+.app__profile-orders{
+    .app__profile-order{
+        display: flex;
+        text-align: left;
+        
+        p{
+            margin-right: 1rem;
+            margin-top: 2rem;
+        }
+    }
+}

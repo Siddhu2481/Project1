@@ -1,0 +1,27 @@
+.app__dashboard{
+    margin-top: 3rem;
+}
+
+.app__dashboard-container{
+    margin-top: 3rem;
+}
+
+.app__dashboard-list{
+    .app__dashboard-list-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+        margin-top: 2rem;
+        text-align: left;
+    }
+
+    hr{
+        margin-top: 2rem;
+    }
+}
+
+.app__dashboard-createBtn{
+    margin-top: 2rem;
+}

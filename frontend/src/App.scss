@@ -1,0 +1,79 @@
+// Reset
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html{
+  font-size: 100%;
+}
+
+body{
+  font-size: 1rem;
+  color: var(--black-color);
+  font-weight: var(--fw-regular);
+}
+
+ul, li{
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: var(--fw-regular);
+}
+
+a{
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.bold{
+  font-weight: var(--fw-bold);
+}
+
+// Button
+.btn-primary{
+  padding: .5rem 2rem;
+
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+// Container
+.container{
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+// Animations
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
